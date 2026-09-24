@@ -174,28 +174,8 @@ Build more practical projects
 Learn backend and cloud technologies
 Gain real-world development experience
 Prepare for internships and professional opportunities
-🌏 Future Direction
 
-One of my long-term goals is to explore professional opportunities in Japan or Korea.
-## 🌏 Career Direction — Japan & South Korea
 
-As a first-year Electronics and Telecommunication Engineering (ENTC) student at SITRC under SPPU, I am actively building my technical foundation through hands-on projects in software development, AI, cybersecurity, and engineering.
-
-My long-term goal is to develop strong technical expertise and pursue academic, internship, research, and professional opportunities in:
-
-🇯🇵 **Japan**
-- Technology and software engineering opportunities
-- AI and intelligent systems
-- Embedded and electronics-related technologies
-- Research and innovation
-- Opportunities to work with Japanese technology organizations
-
-🇰🇷 **South Korea**
-- AI and software engineering
-- Technology and innovation
-- Electronics and embedded systems
-- Research-oriented opportunities
-- Opportunities to work with Korean technology organizations
 
 I am currently focusing on strengthening my fundamentals, building real-world projects, documenting my engineering work, and developing a portfolio that demonstrates practical skills rather than only theoretical knowledge.
 
