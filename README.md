@@ -132,6 +132,7 @@ ZEQUI/
 ├── vite.config.ts
 ├── tailwind.config.js
 └── README.md
+```
 🧪 Engineering & Debugging
 ZEQUI has gone through a dedicated debugging and polishing process.
 Improvements include:
