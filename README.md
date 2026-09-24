@@ -4,6 +4,8 @@
 
 ZEQUI is an AI-powered study and growth companion built by **Nachiket Narkhede** under **AvyaktaX NX Systems**.
 
+---
+
 ## 🚀 About ZEQUI
 
 ZEQUI brings AI-powered learning, research, productivity, and personal growth features together in one platform.
@@ -22,6 +24,8 @@ ZEQUI brings AI-powered learning, research, productivity, and personal growth fe
 - 🤖 AI Companion Personas
 - 📊 Learning & Usage Statistics
 - 📤 Chat & Quiz Export
+
+---
 
 ## 🧠 Why I Built ZEQUI
 
@@ -47,22 +51,27 @@ While building ZEQUI, I have explored:
 
 ZEQUI represents my journey from learning programming fundamentals to building complete, practical software.
 
+---
+
 ## 🛠️ Technology Stack
 
-**Frontend**
+### Frontend
+
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 - Lucide React
 
-**AI & Backend**
+### AI & Backend
+
 - Netlify Functions
 - Gemini
 - Groq
 - Hugging Face
 
-**Other Technologies**
+### Other Technologies
+
 - PDF.js
 - DOMPurify
 - jsPDF
@@ -70,6 +79,8 @@ ZEQUI represents my journey from learning programming fundamentals to building c
 - Browser Speech Recognition
 - Browser Speech Synthesis
 - Local Storage
+
+---
 
 ## 🤖 AI Architecture
 
@@ -86,22 +97,22 @@ Gemini → Groq → Hugging Face
   ↓
 AI Response
 ```
-
-
-
-The AI router is designed to keep provider credentials on the server side and provide fallback between supported AI providers.
-
+The AI router provides a centralized server-side boundary for AI requests and supports fallback between supported AI providers.
 🔐 Security
-
 ZEQUI is designed so that AI provider API keys are stored as server-side environment variables rather than being exposed directly in the frontend.
-
 Expected deployment variables:
-
 GEMINI_API_KEY
 GROQ_API_KEY
 HUGGINGFACE_API_KEY
-
-
+Security-related engineering measures include:
+Server-side AI routing
+API request validation
+Provider timeout handling
+File validation
+Security headers
+Client/server separation for AI requests
+Removal of unnecessary legacy code
+Do not place confidential information, API keys, passwords, or private credentials into this repository.
 📁 Project Structure
 ZEQUI/
 ├── netlify/
@@ -122,11 +133,8 @@ ZEQUI/
 ├── tailwind.config.js
 └── README.md
 🧪 Engineering & Debugging
-
 ZEQUI has gone through a dedicated debugging and polishing process.
-
 Improvements include:
-
 Centralized frontend AI requests
 Server-side AI routing
 API request validation
@@ -137,66 +145,24 @@ Security-related deployment headers
 Removal of unnecessary legacy code
 Deployment documentation
 Environment variable configuration
-
 See DEBUG_REPORT.md for additional details.
-
 🌐 Deployment
-
 ZEQUI is structured for deployment using Netlify.
-
 The project includes netlify.toml for:
-
 Build configuration
 Deployment directory
 Serverless functions
 SPA routing
 Security headers
-🌱 My Learning Journey
-
+🌱 Learning Journey
 I am currently a First-Year ENTC Engineering student at SITRC under SPPU.
-
 My current focus is on strengthening programming fundamentals, improving logical thinking, learning modern software development, and building practical projects.
-
 My approach is:
-
 Learn → Build → Break → Debug → Understand → Improve
-
-I believe that building real projects is one of the best ways to turn concepts into practical engineering skills.
-
-🎯 My Goals
-Strengthen programming fundamentals
-Improve logical thinking and problem-solving
-Become confident with Python
-Develop stronger software engineering skills
-Learn AI/ML technologies
-Understand cybersecurity and secure development
-Build more practical projects
-Learn backend and cloud technologies
-Gain real-world development experience
-Prepare for internships and professional opportunities
-
-
-
-I am currently focusing on strengthening my fundamentals, building real-world projects, documenting my engineering work, and developing a portfolio that demonstrates practical skills rather than only theoretical knowledge.
-
-### 🎯 Current Development Path
-
-**Engineering Foundation → Programming → AI → Cybersecurity → Real-World Projects → Research → International Opportunities**
-
-ZEQUI is one of the projects through which I am developing this path.
-
-My objective is to continuously improve my technical abilities, contribute to meaningful technology projects, and eventually explore opportunities in Japan and South Korea.
-I want to continue developing my technical skills, build meaningful projects, gain real-world experience, and eventually contribute to engineering and technology-driven organizations.
-
-
-ZEQUI is one step in that journey.
-
-🔭 Future Development
-
-ZEQUI v1.0 is a starting point.
-
+ZEQUI is one of the projects through which I am turning what I learn into practical engineering work.
+🔭 Future Direction
+ZEQUI is a starting point for continued exploration of AI orchestration, system architecture, and intelligent software systems.
 Future development may include:
-
 Advanced AI orchestration
 Improved learning analytics
 More personalized study recommendations
@@ -204,60 +170,22 @@ Expanded educational workflows
 Backend persistence
 Authentication and account systems
 Production monitoring
-Advanced AI learning features
 Improved research verification
+Automated testing
 Expanded deployment infrastructure
-👨‍💻 About the Creator
-Nachiket Narkhede
-
-First-Year ENTC Engineering Student
-SITRC | SPPU
-
-Builder / Founder — AvyaktaX NX Systems
-
-I am exploring programming, AI, cybersecurity, software engineering, and emerging technologies through hands-on projects.
-
-ZEQUI represents my effort to turn what I learn into something practical.
-
-I believe in learning by building, debugging, understanding problems, and continuously improving.
+The long-term goal is to continue evolving ZEQUI from a learning and development project into a more robust, reliable, and research-oriented AI learning platform.
 
 🏢 AvyaktaX NX Systems
-
 AvyaktaX NX Systems is the organization under which I am developing and exploring projects such as ZEQUI.
-
 The goal is to learn, experiment, build practical technology, and gradually turn ideas into mature products.
 
-📌 Project Information
-
-Project: ZEQUI
-Version: 1.0
-Category: AI Study & Growth Companion
-Developer: Nachiket Narkhede
-Organization: AvyaktaX NX Systems
-Education: First-Year ENTC | SITRC | SPPU
-Status: Active Learning & Development Project
-
 ⚠️ Disclaimer
-
 ZEQUI is currently a learning and development project.
-
 Some features are experimental or prototype-oriented and may require additional backend infrastructure, authentication, monitoring, and production hardening before large-scale production use.
-
 Do not place confidential information, API keys, passwords, or private credentials into this repository.
-
 ⭐ Final Note
-
 ZEQUI v1.0 is not the end.
-
 It is the beginning of a journey toward building better software, understanding AI systems, improving engineering skills, and turning ideas into working products.
-
 Built with curiosity.
 Improved through debugging.
 Driven by learning.
-
-👤 Nachiket Narkhede
-
-First-Year ENTC | SITRC | SPPU
-AvyaktaX NX Systems
-
-ZEQUI v1.0 — AI Study & Growth Companion
