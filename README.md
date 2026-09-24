@@ -113,6 +113,8 @@ Security headers
 Client/server separation for AI requests
 Removal of unnecessary legacy code
 Do not place confidential information, API keys, passwords, or private credentials into this repository.
+
+```
 📁 Project Structure
 ZEQUI/
 ├── netlify/
