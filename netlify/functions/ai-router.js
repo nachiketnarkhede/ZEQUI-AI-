@@ -249,7 +249,7 @@ async function callGroq(messages, signal) {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
     signal,
-    body: JSON.stringify({ model: "llama-3.1-70b-versatile", messages: formattedMessages, temperature: 0.7, max_tokens: 2048 }),
+    body: JSON.stringify({ model: "model: "openai/gpt-oss-120b",", messages: formattedMessages, temperature: 0.7, max_tokens: 2048 }),
   });
   if (!response.ok) throw providerError("Groq", response.status, await response.text().catch(() => ""));
   const data = await response.json();
